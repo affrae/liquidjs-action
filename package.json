@@ -27,7 +27,7 @@
   "dependencies": {
     "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.0",
-    "liquidjs": "^9.28.5"
+    "liquidjs": "^10.0.0"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
