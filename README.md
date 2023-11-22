@@ -34,7 +34,7 @@ jobs:
   liquidjs-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: LiquidJS Action
         id: run-liquidjs
         uses: ntsd/liquidjs-action@main
@@ -55,7 +55,7 @@ jobs:
   liquidjs-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: LiquidJS Action
         uses: ntsd/liquidjs-action@main
         with:
