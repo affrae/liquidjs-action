@@ -13,4 +13,10 @@ updates:
       interval: "daily"
     versioning-strategy: increase
 
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+    versioning-strategy: increase    
+
       
